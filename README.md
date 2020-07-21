@@ -1,1 +1,3 @@
-https://zhupanovolexii.github.io/everad/
+
+  [DEMO LINK](https://zhupanovolexii.github.io/everad/).
+
