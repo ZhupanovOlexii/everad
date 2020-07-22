@@ -1,3 +1,6 @@
+@import "utils";
+@import "fonts";
+@import "typography";
 
 p {
   margin: 0;
@@ -40,14 +43,14 @@ body {
     &::after {
       position: absolute;
       content: url(".././images/bigSnowflake.svg");
-      left: -100px;
+      left: -95%;
     }
 
     &::before {
       position: absolute;
       content: url(".././images/smallSnowflake.svg");
-      top: 40px;
-      left: -40px;
+      top: 90%;
+      left: -40%;
     }
   }
 
@@ -82,7 +85,7 @@ body {
   margin-bottom: 200px;
   margin-right: 130px;
 
-  &__decor--orange{
+  &__decor--orange {
     text-decoration: underline;
     text-decoration-color: #ff6b00;
   }
@@ -388,7 +391,7 @@ body {
   &__items {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3,350px);
+    grid-template-columns: repeat(auto-fit,350px);
     grid-gap: 75px;
     margin: 50px 0 ;
   }
